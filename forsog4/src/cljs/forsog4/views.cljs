@@ -7,6 +7,6 @@
 (defn main-panel []
   (let [name (re-frame/subscribe [::subs/name])]
     [:div
-     [:h1 "Hello chrLykke ** +from " @name]
+     [:h1 "Hello chrLykke *2020-07-09* +from " @name]
      [:form]
      ]))
